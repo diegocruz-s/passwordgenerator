@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./assets/imgs/password.png" type="image/x-icon">
+    <title>Gerador de senha</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <div class="allComponents">
+
+            <div class="title">
+                <h1>Gerador de senha</h1>
+            </div>
+
+            <main class="inputBtnPassword">
+                <div id="divMain">
+                    <input class="inputNumCaract" value="27" type="range" min="4" max="50">
+                    <div class="divNumCaract"> 
+                        <span class="backValue">&lt;</span> 
+                        <span class="currentValue">27</span> 
+                        <span class="nextValue">&gt;</span> 
+                    </div>
+                    <button class="btnPassword">Gerar senha</button>
+                </div>
+            </main>
+
+            <div class="hidePassword">
+                <h2 class="titlePassword">Sua senha é: </h2>
+                <p class="password"></p>
+            </div>
+
+            <div class="copyPassword">
+                ...
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
+

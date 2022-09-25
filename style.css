@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Macondo', cursive;
+}
+body{
+    background-color: #000;
+}   
+#container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.allComponents{
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.inputNumCaract{
+    -webkit-appearance: none;
+    background-color: rgb(117, 0, 185);
+    height: 17px;
+    border-radius: 8px;
+    width: 40%;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.inputNumCaract::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.title{
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-size: 35px;
+}
+.backValue, .nextValue, .currentValue{
+    color: #fff;
+    font-size: 20px;
+    margin: 15px;
+    transition: all .5s;
+}
+.backValue:hover, .nextValue:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+.divNumCaract{
+    margin-bottom: 30px;
+}
+.btnPassword{
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(117, 0, 185);
+    cursor: pointer;
+}
+.hidePassword{
+    display: none;
+    width: 80%;
+    margin: auto;
+    border-radius: 50px;
+    background-color: rgb(45, 45, 45);
+}
+.titlePassword, .password{
+    color: #fff;
+    margin-top: 20px;
+}
+.password{
+    color: rgb(117, 0, 185);
+    margin-bottom: 20px;
+}
+.copyPassword{
+    display: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
